@@ -28,34 +28,34 @@
 
         <div class="nav_list-items d-flex">
                 <ul>
-                    helo
+                    CHARACTERS
                 </ul>
                 <ul class="nav_item-selected">
-                    helo
+                    COMICS
                 </ul>
                 <ul>
-                    helo
+                    MOVIES
                 </ul>
                 <ul>
-                    helo
+                    TV
                 </ul>
                 <ul>
-                    helo
+                    GAMES
                 </ul>
                 <ul>
-                    helo
+                    COLLECTABLES
                 </ul>
                 <ul>
-                    helo
+                    VIDEOS
                 </ul>
                 <ul>
-                    helo
+                    FANS
                 </ul>
                 <ul>
-                    helo
+                    NEWS
                 </ul>
                 <ul>
-                    helo
+                    SHOP
                 </ul>
         </div>
 
@@ -218,9 +218,17 @@
 
         </div>
 
-        <div class="loadMore_button">
+        <div class="button_wrapper d-flex justify-content-center pt-5 pb-3">
+
+            <div class="loadMore_button bg-primary text-light fw-bold">
+
+                LOAD MORE
+    
+            </div>
 
         </div>
+
+        
 
     </main>
 
