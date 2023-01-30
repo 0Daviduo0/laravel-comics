@@ -6,7 +6,12 @@
     box-sizing: border-box;
 }
 
-header, nav, main, .actions{
+a{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+header, nav, main, .actions, footer, .sub_footer_social{
     padding: 0 250px;
 }
 
@@ -99,4 +104,64 @@ main{
 
 .action_title{
     padding-right: 20px;
+}
+
+footer{
+    background-image: url('/resources/img/footer-bg.jpg');
+    background-size: contain;
+    position: relative;
+    overflow: hidden;
+
+    ul {
+        padding: 0 0;
+        list-style-type: none;
+        color: grey;
+    }
+
+    a {
+        color: grey;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+
+    .column{
+        padding-right: 100px;
+    }
+
+    .title_colums{
+        font-weight: 900;
+        font-size: 20px;
+        padding: 10px 0;
+    }
+
+    .copyright_cookies{
+
+        a{
+            color: #0d6efd;
+        }
+
+        padding-top: 30px;
+
+    }
+
+    .dc_big_logo{
+        position: absolute;
+        right: 250px;
+    }
+}
+
+.sub_footer_social{
+    background-color: #242424;
+    
+    .signin{
+        border: 2px solid #0D6EFD;
+    };
+
+    .socials_text{
+        color: #0D6EFD;
+        font-size: 20px;
+        font-weight: 900;
+    }
 }
