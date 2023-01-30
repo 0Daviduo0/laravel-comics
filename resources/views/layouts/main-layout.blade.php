@@ -8,6 +8,8 @@
     <title>DC Comics</title>
 </head>
 <body>
+    @include('components.header')
     @yield('body')
+    @include('components.footer')
 </body>
 </html>
