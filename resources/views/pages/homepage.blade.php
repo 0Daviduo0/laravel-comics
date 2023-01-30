@@ -232,4 +232,82 @@
 
     </main>
 
+
+
+    <div class="actions bg-primary py-5 d-flex justify-content-center align-items-center">
+
+        <!-- digital comics -->
+        <ul>
+
+            <div class="action_card d-flex justify-content-around align-items-center text-light">
+                <div class="action_image_wrapper">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-digital-comics.png') }}" alt="">
+                </div>
+                <div class="action_title ps-3">
+                    DIGITAL COMICS
+                </div>
+            </div>
+
+        </ul>
+
+        <!-- DC merchandise -->
+        <ul>
+
+            <div class="action_card d-flex justify-content-around align-items-center text-light">
+                <div class="action_image_wrapper">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-merchandise.png') }}" alt="">
+                </div>
+                <div class="action_title ps-3">
+                    DC MERCHANDISE
+                </div>
+            </div>
+
+        </ul>
+
+        <!-- subscription -->
+        <ul>
+
+            <div class="action_card d-flex justify-content-around align-items-center text-light">
+                <div class="action_image_wrapper">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-subscriptions.png') }}" alt="">
+                </div>
+                <div class="action_title ps-3">
+                    SUBSCRIPTION
+                </div>
+            </div>
+
+        </ul>
+
+        <!-- comic shop locator -->
+        <ul>
+
+            <div class="action_card d-flex justify-content-around align-items-center text-light">
+                <div class="action_image_wrapper">
+                    <img class="action_image locator" src="{{ Vite::asset('/resources/img/buy-comics-shop-locator.png') }}" alt="">
+                </div>
+                <div class="action_title">
+                    COMIC SHOP LOCATOR
+                </div>
+            </div>
+
+        </ul>
+
+        <!-- DC power visa -->
+        <ul>
+
+            <div class="action_card d-flex justify-content-around align-items-center text-light">
+                <div class="action_image_wrapper">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-dc-power-visa.svg') }}" alt="">
+                </div>
+                <div class="action_title ps-3">
+                    DC POWER VISA
+                </div>
+            </div>
+
+        </ul>
+
+        
+
+    </div>
+
 @endsection

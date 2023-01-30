@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-header, nav, main{
+header, nav, main, .actions{
     padding: 0 250px;
 }
 
@@ -81,4 +81,22 @@ main{
 
 .loadMore_button{
     padding: 10px 50px;
+}
+
+.action_image_wrapper{
+    width: 70px;
+}
+
+.action_image{
+    width: 100%;
+    height: 100%;
+}
+
+.locator{
+    width: 80%;
+    height: 80%;
+}
+
+.action_title{
+    padding-right: 20px;
 }
