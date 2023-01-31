@@ -218,7 +218,7 @@ main{
 }
 
 .description_adv{
-    padding-top: 100px;
+    padding-top: 80px;
 
     .product_description{
     
@@ -271,6 +271,32 @@ main{
 }
 
 .talent_specs_wrapper{
-    height: 300px;
+    height: 400px;
     background-color: #F6F6F6;
+
+    .ts{
+        width: 48%;
+
+        .title_ts{
+            font-size: 20px;
+            font-weight: 700;
+            color: #214473;
+        }
+
+        .table_row{
+            border-top: 1px solid rgba(184, 184, 184, 0.526);
+            border-bottom: 1px solid rgba(184, 184, 184, 0.526);
+
+            .table_row_title{
+                width: 25%;
+            }
+
+            .table_row_descr{
+                width: 75%;
+            }
+
+        }
+
+        
+    }
 }

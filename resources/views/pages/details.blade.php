@@ -85,13 +85,77 @@
 
     </div>
 
-    <div class="talent_specs_wrapper d-flex ">
+    <div class="talent_specs_wrapper d-flex justify-content-between">
 
-        <div class="talent">
+        <div class="ts">
+
+            <div class="title_ts py-5">
+                Talent
+            </div>
+
+            <div class="table_ts">
+
+                <div class="table_row d-flex py-2">
+                    <div class="table_row_title">
+                        Art by:
+                    </div>
+                    <div class="table_row_descr">
+                        <a href="">Josè Luis Garcia-Lopez</a>, <a href="">Clay Mann</a>, <a href="">Rafael Albuquerque</a>, <a href="">Partick Gleason</a>,
+                        <a href="">Dan Jurgens</a>, <a href="">Joe Shuster</a>, <a href="">Neal Adams</a>, <a href="">Curt Swan</a>, <a href="">John Cassaday</a>, 
+                        <a href="">Oliver Coipel</a>, <a href="">Jim Lee</a>
+                    </div>
+                </div>
+                <div class="table_row d-flex py-2">
+                    <div class="table_row_title">
+                        Written by:
+                    </div>
+                    <div class="table_row_descr">
+                        <a href="">Brad Meltzer</a>, <a href="">Tom King</a>, <a href="">Scott Snyder</a>, <a href="">Geoff Johns</a>,
+                        <a href="">Brian Michael Bendis</a>, <a href="">Paul Dini</a>, <a href="">Louise Simonson</a>, <a href="">Richard Donner</a>, 
+                        <a href="">Mary Wolfman</a>, <a href="">Peter J. Tommasi</a>, <a href="">Dan Jurgens</a>, <a href="">Jerry Siegel</a>, <a href="">Paul Levitz</a>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
 
-        <div class="specs">
+        <div class="ts">
+
+            <div class="title_ts py-5">
+                Specs
+            </div>
+    
+            <div class="table_ts">
+
+                <div class="table_row d-flex py-2">
+                    <div class="table_row_title">
+                        Series:
+                    </div>
+                    <div class="table_row_descr">
+                        <a href="">ACTION COMICS</a>
+                    </div>
+                </div>
+                <div class="table_row d-flex py-2">
+                    <div class="table_row_title">
+                        U.S. Price:
+                    </div>
+                    <div class="table_row_descr">
+                        $19.99
+                    </div>
+                </div>
+                <div class="table_row d-flex py-2">
+                    <div class="table_row_title">
+                        On Sale Date:
+                    </div>
+                    <div class="table_row_descr">
+                        Oct 02 2018
+                    </div>
+                </div>
+
+            </div>
+    
+            </div>
 
         </div>
 
