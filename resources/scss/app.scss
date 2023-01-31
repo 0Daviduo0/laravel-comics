@@ -13,7 +13,7 @@ a{
 
 //General
 
-header, nav, main, .actions, footer, .sub_footer_social, .show_product, .product_description{
+header, nav, main, .actions, footer, .sub_footer_social, .show_product, .description_adv{
     padding: 0 250px;
 }
 
@@ -224,7 +224,7 @@ main{
         height: 400px;
     
         .title_big{
-            font-size: 25px;
+            font-size: 30px;
             font-weight: 700;
             color: #214473;
         }
@@ -232,7 +232,7 @@ main{
         .buy_check{
 
             .price_availability{
-                width: 500px;
+                width: 600px;
                 background-color: #4D8650;
                 border-right: 1px solid black;
         
@@ -242,12 +242,24 @@ main{
             }
         
             .check_availability{
-                width: 200px;
+                width: 300px;
                 background-color: #4D8650;
             }
 
         }
+
+        .descr_text{
+            width: 900px;
+        }
         
+    }
+
+    .adv{
+        width: 300px;
+        height: 300px;
+        background-image: url('../img/adv.jpg');
+        background-size: contain;
+        background-repeat: no-repeat;
     }
     
 
