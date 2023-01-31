@@ -13,7 +13,7 @@ a{
 
 //General
 
-header, nav, main, .actions, footer, .sub_footer_social, .show_product, .description_adv, .talent_specs_wrapper{
+header, nav, main, .actions, footer, .sub_footer_social, .show_product, .description_adv, .talent_specs_wrapper, .actions_details_page{
     padding: 0 250px;
 }
 
@@ -293,6 +293,10 @@ main{
 
             .table_row_descr{
                 width: 75%;
+                
+                a{
+                    color: #0D6EFD;
+                }
             }
 
         }
@@ -300,3 +304,29 @@ main{
         
     }
 }
+
+.actions_border{
+    outline: 1px solid rgba(184, 184, 184, 0.526);
+
+    .actions_details_page{
+        background-color: #F6F6F6;
+        height: 100px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    
+        .action_wrapper{
+            border: 1px solid rgba(184, 184, 184, 0.526);
+    
+            .action_image{
+                width: 50%;
+                filter: invert(30%);
+            }
+        }
+    }
+
+}
+
+

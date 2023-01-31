@@ -161,5 +161,56 @@
 
     </div>
 
+    <div class="actions_border">
+        <div class="actions_details_page">
+
+            <div class="action_wrapper d-flex justify-content-between p-3">
+    
+                <div class="action_title_details_page">
+                    DIGITAL COMICS
+                </div>
+                <div class="action_img_details_page d-flex justify-content-end">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-digital-comics.png') }}" alt="">
+                </div>
+    
+            </div>
+    
+            <div class="action_wrapper d-flex justify-content-between p-3">
+    
+                <div class="action_title_details_page">
+                    SHOP DC
+                </div>
+                <div class="action_img_details_page d-flex justify-content-end">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-subscriptions.png') }}" alt="">
+                </div>
+    
+            </div>
+    
+            <div class="action_wrapper d-flex justify-content-between p-3">
+    
+                <div class="action_title_details_page">
+                    COMIC SHOP LOCATOR
+                </div>
+                <div class="action_img_details_page d-flex justify-content-end">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-shop-locator.png') }}" alt="">
+                </div>
+    
+            </div>
+    
+            <div class="action_wrapper d-flex justify-content-between p-3">
+    
+                <div class="action_title_details_page">
+                    SUBSCRIPTIONS
+                </div>
+                <div class="action_img_details_page d-flex justify-content-end">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-merchandise.png') }}" alt="">
+                </div>
+    
+            </div>
+    
+        </div>
+    </div>
+    
+
     
 @endsection

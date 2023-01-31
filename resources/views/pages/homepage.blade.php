@@ -13,136 +13,184 @@
         <div class="comix_library pt-5 px-3 text-light">
 
             <!-- Action comics -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/action_comics.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    ACTION COMICS
+            <a href="/details">
+            
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/action_comics.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        ACTION COMICS
 
+                    </div>
                 </div>
-            </div>
+
+            </a>
 
             <!-- American vampire -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/american_vampire.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    AMERICAN VAMPIRE 1976
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/american_vampire.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        AMERICAN VAMPIRE 1976
+
+                    </div>
                 </div>
-            </div>
+            
+            </a>
 
             <!-- Aquaman -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/aquaman.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    AQUAMAN
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/aquaman.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        AQUAMAN
+
+                    </div>
                 </div>
-            </div>
+            
+            </a>
 
             <!-- Batgirl -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/batgirl.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    BATGIRL
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/batgirl.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATGIRL
+
+                    </div>
                 </div>
-            </div>
+
+            </a>
 
             <!-- Batman -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    BATMAN
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATMAN
+
+                    </div>
                 </div>
-            </div>
+
+            </a>
 
             <!-- Batman Bayond -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_beyond.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    BATMAN BEYOND
+            <a href="/details">
 
-                </div>
-            </div>
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_beyond.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATMAN BEYOND
 
-            <!-- Batman/Superman -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_superman.jpg') }}" alt="">
+                    </div>
                 </div>
-                <div class="comic_title">
-                    BATMAN/SUPERMAN
 
-                </div>
-            </div>
+            </a>
 
             <!-- Batman/Superman -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/Batman_Superman_Annual.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    BATMAN/SUPERMAN ANNUAL
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_superman.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATMAN/SUPERMAN
+
+                    </div>
                 </div>
-            </div>
+
+            </a>
+
+            <!-- Batman/Superman -->
+            <a href="/details">
+
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/Batman_Superman_Annual.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATMAN/SUPERMAN ANNUAL
+
+                    </div>
+                </div>
+
+            </a>
 
             <!-- Batman: The joker war zone -->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_joker_warzone.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    BATMAN: THE JOKER WAR ZONE
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_joker_warzone.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATMAN: THE JOKER WAR ZONE
+
+                    </div>
                 </div>
-            </div>
+
+            </a>
 
             <!-- Batman: Three Jokers-->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_3_jokers.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    BATMAN: THREE JOKERS
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_3_jokers.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATMAN: THREE JOKERS
+
+                    </div>
                 </div>
-            </div>
+
+            </a>
 
             <!-- Batman: white knight presents: harley queen-->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_harley.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    BATMAN: WHITE KNIGHT PRESENTS: HARLEY QUEEN
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/batman_harley.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        BATMAN: WHITE KNIGHT PRESENTS: HARLEY QUEEN
+
+                    </div>
                 </div>
-            </div>
+
+            </a>
 
             <!-- Catwoman-->
-            <div class="comic_card d-flex flex-column">
-                <div class="cover">
-                    <img class="comic_cover" src="{{ Vite::asset('/resources/img/catwoman.jpg') }}" alt="">
-                </div>
-                <div class="comic_title">
-                    CATWOMAN
+            <a href="/details">
 
+                <div class="comic_card d-flex flex-column">
+                    <div class="cover">
+                        <img class="comic_cover" src="{{ Vite::asset('/resources/img/catwoman.jpg') }}" alt="">
+                    </div>
+                    <div class="comic_title">
+                        CATWOMAN
+
+                    </div>
                 </div>
-            </div>
+
+            </a>
 
         </div>
 
@@ -167,11 +215,11 @@
         <ul>
 
             <div class="action_card d-flex justify-content-around align-items-center text-light">
-                <div class="action_image_wrapper">
-                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-digital-comics.png') }}" alt="">
-                </div>
                 <div class="action_title ps-3">
                     DIGITAL COMICS
+                </div>
+                <div class="action_image_wrapper">
+                    <img class="action_image" src="{{ Vite::asset('/resources/img/buy-comics-digital-comics.png') }}" alt="">
                 </div>
             </div>
 
