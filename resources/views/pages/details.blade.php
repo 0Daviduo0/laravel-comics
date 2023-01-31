@@ -71,8 +71,29 @@
            
         </div>
 
-        <div class="adv d-flex justify-content-center"></div>
+        <div class="adv_text_wrapper">
+
+            <div class="adv_text text-end">
+                ADVERTISEMENT
+            </div>
+
+            <div class="adv d-flex justify-content-center"></div>
+
+        </div>
         
+        
+
+    </div>
+
+    <div class="talent_specs_wrapper d-flex ">
+
+        <div class="talent">
+
+        </div>
+
+        <div class="specs">
+
+        </div>
 
     </div>
 

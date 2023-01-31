@@ -13,7 +13,7 @@ a{
 
 //General
 
-header, nav, main, .actions, footer, .sub_footer_social, .show_product, .description_adv{
+header, nav, main, .actions, footer, .sub_footer_social, .show_product, .description_adv, .talent_specs_wrapper{
     padding: 0 250px;
 }
 
@@ -221,7 +221,6 @@ main{
     padding-top: 100px;
 
     .product_description{
-        height: 400px;
     
         .title_big{
             font-size: 30px;
@@ -254,14 +253,24 @@ main{
         
     }
 
-    .adv{
-        width: 300px;
-        height: 300px;
-        background-image: url('../img/adv.jpg');
-        background-size: contain;
-        background-repeat: no-repeat;
+    .adv_text_wrapper{
+
+        .adv_text{
+            font-weight: 700;
+        }
+
+        .adv{
+            width: 300px;
+            height: 300px;
+            background-image: url('../img/adv.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
     }
-    
 
 }
 
+.talent_specs_wrapper{
+    height: 300px;
+    background-color: #F6F6F6;
+}
