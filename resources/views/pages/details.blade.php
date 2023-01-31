@@ -1,5 +1,7 @@
 @extends('layouts.main-layout')
 
 @section('body')
-    <h1>Dettagli prodotto</h1>
+    <div class="show_product">
+        
+    </div>
 @endsection
